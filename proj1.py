@@ -13,14 +13,15 @@ def main():
     o = int(lines[m+4])   # number of orders
     orders = [ [int(a) for a in lines[m+5+i][1:].split()] for i in range(o) ]
 
-    print("n: ",n, "\nm: ",m)
+    print("n: ",n)
+    print("m: ",m)
     print("pos: ", pos)
     print("movTime: ", movTime)
     print("cbTime: ", cbTime)
     print("o: ", o)
     print("orders: ", orders)
 
-    
+
 
 
 if __name__ == '__main__':
